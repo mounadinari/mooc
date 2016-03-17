@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.esprit.mooc.gui.HomepageController">
+   <children>
+      <ImageView fitHeight="394.0" fitWidth="488.0" layoutX="3.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleButtonActtion" text="Ajouter Chapitre">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="152.0" layoutY="21.0" prefHeight="38.0" prefWidth="197.0" text="Welcome" textAlignment="CENTER" textFill="#a11010">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="161.0" mnemonicParsing="false" text="consulter Liste Chapitres">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="227.0" mnemonicParsing="false" onAction="#handleButtonActtion1" text="Supprime/Modifier">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="289.0" mnemonicParsing="false" text="Chercher Chapitre">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
